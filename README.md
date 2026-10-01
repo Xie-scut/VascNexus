@@ -2,9 +2,13 @@
 
 A research project on task-conditioned 3D medical image segmentation, combining directional spatial modeling, Mamba-based feature refinement, multi-scale attention, and a dynamic segmentation head.
 
+![Figure 1. Segmentation challenges and the VascNexus unified framework.](assets/fig1.png)
+
+**Figure 1.** Motivation and overview of VascNexus: (a) segmentation challenges, including thin branches, irregular contours, and complex topology; (b) comparison between independent models and the unified VascNexus framework.
+
 ## Repository status
 
-This is a **README-only project page**. Model implementations, training and inference scripts, pretrained weights, and datasets are not included in this repository.
+This is a **documentation-only project page**, containing the README and its supporting figure. Model implementations, training and inference scripts, pretrained weights, and datasets are not included in this repository.
 
 ## Method overview
 
@@ -37,7 +41,7 @@ Numerical results are not reproduced on this project page. Comparisons require c
 
 ## Data and privacy
 
-No medical images, segmentation masks, case identifiers, experiment logs, model checkpoints, credentials, or machine-specific paths are distributed here. Access to each dataset is governed by its original provider's terms.
+Apart from the illustrative examples embedded in Figure 1, no standalone medical images, segmentation masks, case identifiers, experiment logs, model checkpoints, credentials, or machine-specific paths are distributed here. Access to each dataset is governed by its original provider's terms.
 
 ## Usage
 
